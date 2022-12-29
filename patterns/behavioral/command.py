@@ -48,6 +48,7 @@ class DeleteFileCommand:
 
     def __init__(self) -> None:
         # an array of deleted files, to undo them as needed
+        #hello world
         self._deleted_files: List[str] = []
 
     def execute(self, filename: str) -> None:
